@@ -1,0 +1,33 @@
+symbolic AI limitations: image tagging, language translation
+(ML, DL both learns from data)
+ML learns from data not from rules
+DL advanced ML field in which NN are used.
+auto feature engineering in DL
+----------------------------------------------------------------
+Alan turing introduced turing test in which a system is questioned by human and if the human fails to access that whether the machine is replying or the human then the system passes the test
+----------------------------------------------------------------
+ML algorithms:
+1. probabilistic model:
+    stats model which incorporates stats algorithm naive bayes used for classification
+2. kernel method:
+    e.g SVM support vector machine (in SVM we have to do transformation ourselves)
+    it incorporates group of classification algorithms. hyperplane is a line that seperates data into classes
+3. decision trees(/CART classification and regression tree)
+    makes hierarchy by lining input and output. what input gives what output
+4. random forest
+    large number of decision trees are linked together to predict and vote from majority decision tree is the final label of output
+5. boosting machine learning
+    e.g: Ada boost, gradient boost
+    donot repeat previous mistakes. weak learner --> strong learner
+    
+----------------------------------------------------------------   
+parameters are w & b
+hyperparameter gives values e.g: input layer= output layer= activationfunc= loss func=
+structure created is hypothesis space 
+more layers more deep the network is
+deep learning could be named as layered representations learning / hierarchical representations learning
+----------------------------------------------------------------
+first time weights applied its forward propagation
+after loss feedback weights updated and applied is back propagation
+----------------------------------------------------------------
+datasets: LeNet, imageNet
